@@ -1,0 +1,61 @@
+<style>
+  .amazon-link {
+   color: rgb(78, 202, 252);
+  }
+
+  .Nike-Shoes {
+    color: black;
+    font-size: 24px;
+    font-weight: bold;
+  }
+
+  .price {
+    color: rgb(0, 190, 0);
+    font-weight: bold;
+  }
+  
+  .add-to-cart {
+    background-color: rgb(249, 217, 76);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 24px;
+    margin-right: 8px;
+    cursor: pointer;
+
+  }
+
+  .buy-now{
+    background-color: rgb(253, 173, 0);
+    border: none;
+    height: 30px;
+    width: 110px;
+    border-radius: 24px;
+    cursor: pointer;
+  }
+</style>
+
+
+<a class="amazon-link" href="https://www.amazon.in/Jordan-Womens-Cement-Red-Black-Red-black/dp/B0CVFCXG8K/ref=sr_1_19?sr=8-19&psc=1" target="_black">
+  amazon link
+</a>
+
+<p class="Nike-Shoes">
+  Nike Black Running Shoes
+</p>
+
+<p class="price">
+  3975 INR - in stock
+</p>
+
+<p>
+  Free Delivery Tomorrow
+</p>
+
+<button class="add-to-cart">
+  Add to Cart
+</button>
+
+<button class="buy-now">
+  Buy now
+</button>
